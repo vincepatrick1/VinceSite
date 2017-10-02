@@ -3,7 +3,7 @@
         "use strict"
         var module = {
             onready: function () {
-                $('#b1').on("click", function(){
+                $('#resume').on("click", function(){
             ga('send', 'event', 'link','Resume')})
         }
     }

@@ -1,4 +1,4 @@
-﻿ .dropbtn {
+﻿.dropbtn {
     background-color: #ffd800;
     color: purple;
     padding: 16px;
@@ -10,6 +10,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    position: center;
 }
 
 .dropdown-content {
@@ -47,7 +48,7 @@
 
 #b2 {
     display: none;
-    color: red;
+    color: floralwhite;
 }
 
 #b3 {
@@ -55,13 +56,33 @@
     color: red;
 }
 
+#b4 {
+}
+
+#b5 {
+}
+
+.bg {
+    height: 100%;
+}
+
 .flash {
     animation-name: flash;
-    animation-duration: 1.2s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-play-state: running;
+    font-size: large;
+}
+
+.lakerimg {
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    background-repeat: space;
+    background-size: 100%, 100%;
+    background-image: url("lakers.png");
 }
 
 @keyframes flash {
@@ -70,8 +91,10 @@
     }
 
     to {
-        color: black;
+        color: mediumpurple;
     }
 }
-
+a:visited{
+    color:floralwhite;
+}
 

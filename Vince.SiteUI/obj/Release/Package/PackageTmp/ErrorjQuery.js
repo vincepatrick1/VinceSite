@@ -3,7 +3,6 @@
         $("#b1").css("display", "block")
     });
 
-
     $("#b5").click(function () {
         $("#b2").css("display", "block")
     });
