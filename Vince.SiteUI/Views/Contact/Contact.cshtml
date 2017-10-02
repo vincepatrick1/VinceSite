@@ -1,0 +1,30 @@
+﻿@model Vince.SiteUI.Models.VinceViewModel
+
+@{
+    ViewBag.Title = "Contact";
+}
+<div class="container">
+   
+    <div class="well col-sm-12" style="background: rgb(46, 45, 44); border-radius:5px; box-shadow: rgb(255, 0, 0) 0 0 3px">
+        <h2 id="header"> @ViewBag.Title</h2>
+        <h4>Email me</h4>
+        <ul>
+            <li>
+                School Email: <a href="mailto:richard.patrick@louisville.edu">@Model.Email</a>
+            </li>
+            <li> Personal Email: <a href="mailto:vince.patrick225@gmail.com"> @Model.SecondaryEmail</a></li>
+        </ul>
+
+        <h4>Pager</h4>
+        <ul>
+            <li>I don't really have a pager</li>
+        </ul>
+        <h4>Accounts</h4>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/richard-patrick-a36156127" target="_blank">LinkedIn</a></li>
+            <li>
+                <a href="https://github.com/vincepatrick1" target="_blank">GitHub</a>
+            </li>
+        </ul>
+        </div>
+    </div>

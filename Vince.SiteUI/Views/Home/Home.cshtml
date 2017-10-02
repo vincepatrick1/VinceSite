@@ -1,0 +1,65 @@
+﻿@model Vince.SiteUI.Models.VinceViewModel
+
+@{
+    ViewBag.Title = "Home";
+}
+
+
+<div style="background: rgb(46, 45, 44); border-radius:5px; box-shadow: rgb(255, 0, 0) 0 0 3px">
+        <div class="jumbotron">
+
+            <h2 id="header">Welcome</h2>
+            <p id="intro">
+                I, Vince Patrick, am a senior Computer Information Systems major at the University of Louisville with a track in both Web Development and Information Security. <br />
+                </br> One day I would like to be the best developer I can be, but until that day, I am going to keep learning as much as I can.<br />
+
+            </p>
+        </div>
+</div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3">
+                <h3 id="skill"> Skills</h3>
+
+                @foreach (var s in Model.CurrentSkills)
+            {
+                    <ul style="margin: 3px;">
+                        <li>@s</li>
+                    </ul>
+                }
+                <h3 id="progress">In Progress</h3>
+                @foreach (var s in Model.UpcomingSkills)
+            {
+                    <ul>
+                        <li>@s</li>
+                    </ul>
+                }
+
+            </div>
+            <div class="col-sm-4">
+                <h3 id="skill">Experience</h3>
+                <ul style="list-style-type:square">
+                    <li>Currently, I am an IT intern at Zirmed in Louisville, KY.</li>
+                    <li>I am a part of on-going class project in planning, desining, and developing a website for non-profit KHBPA.</li>
+                </ul>
+
+
+                <h3 id="progress">Education</h3>
+                <ul style="list-style-type:square">
+                    <li>Eastern High School : 2010-2014</li>
+                    <li>UofL : 2014-2018</li>
+                </ul>
+
+            </div>
+            <div class="col-sm-4">
+                <h3 id="skill">Goals</h3>
+                <ul style="list-style-type:none">
+                    <li> Some of my short term goals include to graduate in May 2018 while maintaing my 3.93 GPA. I would also like to find a full time job before I graduate. While long term I would like to become a full stack developer.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+

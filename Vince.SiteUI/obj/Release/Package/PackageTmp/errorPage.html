@@ -1,0 +1,167 @@
+﻿<style>
+    .dropbtn {
+        background-color: #ffd800;
+        color: purple;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        position: center;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+            .dropdown-content a:hover {
+                background-color: #f1f1f1
+            }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .background-color {
+        background-color: #7f16f0
+    }
+
+    #b1 {
+        display: none;
+        color: gold;
+    }
+
+    #b2 {
+        display: none;
+        color: black;
+    }
+
+    #b3 {
+        display: none;
+        color: red;
+    }
+    #b4{
+
+    }
+    #b5{
+
+    }
+    .bg{
+        
+        height: 100%;
+       
+    }
+
+    .flash {
+        animation-name: flash;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-play-state: running;
+        font-size:large;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .lakerimg {
+        height: auto;
+        max-width: 100%;
+        border-radius: 50%;
+        background-repeat: space;
+        background-size: 100%, 100%;
+        background-image: url("lakers.png");
+    }
+
+ @keyframes flash {
+        from {
+            color: gold;
+        }
+
+        to {
+            color: black;
+        }
+    }
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" charset="utf-8" />
+    <title>Oh No. Something just went wrong</title>
+    <link href="~/ErrorStyles.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<body class="background-color">
+    
+        <div class="red">
+            <h2>404</h2>
+            <h3>If you ever want to see the home page again. Answer this question correctly.</h3>
+        </div>
+        </br>
+        <span class="dropdown" style="align-content:center">
+            <button style="align-self: center" class="dropbtn">Who is the greatest basketball player of all time?</button>
+            <span class="dropdown-content">
+                <a id="b4"> Kobe Bryant</a>
+                <a id="b5"> Michael Jordan</a>
+                <a id="b6"> Lebron James</a>
+            </span>
+        </span>
+        </br>
+        </br>
+        <h4>
+            <span id="b2"> NO. but debatable</span>
+            <span id="b3"> NO. 5 > 3</span>
+        </h4>
+    
+    <div id="b1">
+        <span class="flash"> Go Lakers <a href="http://vincepatrick1.azurewebsites.net">and Go Back Home</a></span>
+        <img src="lakers.png" class="lakerimg" />
+    </div>
+    <script src="~/ErrorjQuery.js"></script>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        $("#b4").click(function () {
+            $("#b1").css("display", "block")
+        });
+        
+   
+        $("#b5").click(function () {
+            $("#b2").css("display", "block")
+        });
+        
+            $("#b6").click(function () {
+                $("#b3").css("display", "block")
+            });
+
+        $("#b5").click(function () {
+            $("#b1").css("display", "none")
+            });
+        $("#b6").click(function () {
+            $("#b1").css("display", "none")
+        });
+    });
+
+   </script>
+

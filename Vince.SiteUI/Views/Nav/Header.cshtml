@@ -1,0 +1,25 @@
+﻿
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("Vince Patrick", "Home", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li> @Html.ActionLink("About", "About", "About", null, new { @class = "navbar-brand" })</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Contact", null, new { @class = "navbar-brand" })</li>
+                    <li ><a class="nav navbar-brand navbar-right" href="~/Resume.pdf" target="_blank">Resume</a></li>
+                </ul>   
+          <ul class="nav navbar-right">
+                
+               <li><a href="https://www.linkedin.com/in/richard-patrick-a36156127" target="_blank" class="fa fa-linkedin"></a></li>
+            </ul>
+
+            </div>
+        </div>
+</div>
