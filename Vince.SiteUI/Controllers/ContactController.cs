@@ -10,7 +10,7 @@ namespace Vince.SiteUI.Controllers
     public class ContactController : Controller
     {
         // GET: Contact
-        public ViewResult Contact()
+        public ViewResult Index()
         {
             VinceViewModel v = new VinceViewModel();
             v.Email = "richard.patrick@louisville.edu";

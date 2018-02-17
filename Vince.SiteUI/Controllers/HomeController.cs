@@ -12,7 +12,7 @@ namespace Vince.SiteUI.Controllers
         // GET: Home
         public List<string> currentSkills = new List<string>();
         public List<string> upcomingSkills = new List<string>();
-        public ViewResult Home()
+        public ViewResult Index()
         {
             VinceViewModel vince = new VinceViewModel();
             currentSkills.Add("C#");
@@ -20,10 +20,11 @@ namespace Vince.SiteUI.Controllers
             currentSkills.Add("Javascript");
             currentSkills.Add("HTML/CSS");
             currentSkills.Add("ASP.NET Web Forms");
-            upcomingSkills.Add("ASP.NET MVC 5");
+            currentSkills.Add("ASP.NET MVC 5");
+            currentSkills.Add("jQuery");
+            currentSkills.Add("Angular");
             upcomingSkills.Add("Python");
-            upcomingSkills.Add("jQuery");
-            //upcomingSkills.Add("Angular");
+
 
             vince.CurrentSkills = currentSkills;
             vince.UpcomingSkills = upcomingSkills;
