@@ -4,24 +4,29 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Styles.Render("~/bundles/icons")
     @Scripts.Render("~/bundles/bootstrapcdn")
 
 </head>
-@Html.Action("Header", "Nav")
+
 
 <body>
+    @Html.Action("Header", "Nav")
     <div class="background">
+        
+        
+            <div class="container body-content">
 
-        <div class="container body-content">
-            @RenderBody()
-            <hr />
-            @Html.Action("Footer", "Nav")
+                    @RenderBody()
+
+                    <hr />
+                    @Html.Action("Footer", "Nav")
+                
+            </div>
         </div>
-    </div>
     @Scripts.Render("~/bundles/jQuery")
     @Scripts.Render("~/bundles/scripts")
     @RenderSection("scripts", required: false)

@@ -17,5 +17,9 @@ namespace Vince.SiteUI.Controllers
         {
             return PartialView();
         }
+        public PartialViewResult Menu()
+        {
+            return PartialView();
+        }
     }
 }
