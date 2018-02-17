@@ -9,6 +9,7 @@ namespace Vince.SiteUI.Controllers
     public class AboutController : Controller
     {
         // GET: About
+        //comment
         public ViewResult About()
         {
             return View();
