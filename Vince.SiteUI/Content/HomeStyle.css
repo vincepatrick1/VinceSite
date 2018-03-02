@@ -9,7 +9,10 @@
     color: salmon;
     font-family: Verdana;
 }
-
+.intro{
+    font-size:large;
+    
+}
 #exp{
     color: goldenrod
 }
