@@ -39,8 +39,10 @@
     max-width: 100%;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 100%;
-    height:700px;
+
+  min-width: 100%;
+  height: 800px;
+  max-width: none;
 }
 #city{
     background-image: url("~/city.png");
