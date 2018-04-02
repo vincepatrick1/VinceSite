@@ -8,7 +8,19 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+.portfolio-assignment{
+    padding-bottom:10px;
+}
+.jump{
+    text-align:center;
+}
+.sidenav {
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;
+    max-width:20%;
 
+}
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
@@ -17,6 +29,61 @@ textarea {
 }
 #resumeBtn{
     color:black;
+}
+
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+.nav-link{
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 270px;
+  width: 250px;
+  
+  position: fixed;
+  height: 25%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width:930px) {
+
+    #wrapper {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        left: 0;
+    }
+
+    #wrapper.active {
+        position: relative;
+        left: 250px;
+    }
+
+        #wrapper.active #sidebar-wrapper {
+            left: 250px;
+            width: 250px;
+            transition: all 0.4s ease 0s;
+        }
 }
 /*.caret {
     display: inline-block;

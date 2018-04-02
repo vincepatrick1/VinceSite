@@ -8,6 +8,7 @@
 #header{
     color: salmon;
     font-family: Verdana;
+    font: bold;
 }
 .intro{
     font-size:large;
@@ -18,6 +19,27 @@
 }
 #edu{
     color: khaki
+}
+a.anchor{
+display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+.seperator {
+     
+    padding:0px; 
+    height: 3px;
+    width: 75%;
+    color: #808080;
+    border-bottom-style:solid;
+    margin-bottom: 10px;
+
+}
+.portfolio-header{
+    font-family:Georgia;
+    color: salmon;
+    text-decoration: underline
 }
 .q{
     color:red
