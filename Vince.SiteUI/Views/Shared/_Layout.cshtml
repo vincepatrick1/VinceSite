@@ -15,12 +15,13 @@
     @Html.Action("Header", "Nav")
     <div class="background">
                     @RenderBody()
-
                     <hr />
+        
+        
                     @Html.Action("Footer", "Nav")
-                
+                </div>
             
-      </div>
+      
     @Scripts.Render("~/bundles/jQuery")
     @Scripts.Render("~/bundles/bootstrapcdn")
     @Scripts.Render("~/bundles/scripts")

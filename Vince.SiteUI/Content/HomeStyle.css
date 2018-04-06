@@ -2,11 +2,17 @@
 #skill{
     color:lightgreen;
 }
+.navbar{
+    color:black;
+}
+a{
+    color:lightgray;
+}
 #progress{
     color:sandybrown;
 }
 #header{
-    color: salmon;
+    color: lightskyblue;
     font-family: Verdana;
     font: bold;
 }
@@ -38,7 +44,7 @@ display: block;
 }
 .portfolio-header{
     font-family:Georgia;
-    color: salmon;
+    color: lightskyblue;
     text-decoration: underline
 }
 .q{
