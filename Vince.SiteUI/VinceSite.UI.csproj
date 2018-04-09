@@ -119,6 +119,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="CoverLetter.pdf" />
     <None Include="Properties\PublishProfiles\VincePatrick1 - Web Deploy.pubxml" />
     <EmbeddedResource Include="Resume.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -175,6 +176,7 @@
     <Content Include="Views\ErrorPage.cshtml" />
     <Content Include="Views\Nav\Menu.cshtml" />
     <Content Include="Views\Portfolio\Index.cshtml" />
+    <Content Include="TechnicalSkillsVP.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

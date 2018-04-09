@@ -5,11 +5,11 @@
 .navbar{
     color:black;
 }
-a{
-    color:lightgray;
-}
 #progress{
     color:sandybrown;
+}
+.course{
+    color:#4080bf;
 }
 #header{
     color: lightskyblue;
