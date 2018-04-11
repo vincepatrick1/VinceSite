@@ -120,6 +120,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="CoverLetter.pdf" />
+    <Content Include="A1.pdf" />
+    <Content Include="A4.pdf" />
+    <Content Include="A7.pdf" />
+    <Content Include="Case 1-1.pdf" />
+    <Content Include="Case 4-2.pdf" />
+    <Content Include="CaseWebvan.pdf" />
+    <Content Include="CaseAgrico.pdf" />
+    <Content Include="Project 4 Write-Up.pdf" />
+    <Content Include="Final Paper.pdf" />
+    <Content Include="A8SQL.pdf" />
+    <Content Include="A2.pdf" />
+    <Content Include="A5.pdf" />
+    <Content Include="A6doc.pdf" />
+    <Content Include="A10doc.pdf" />
     <None Include="Properties\PublishProfiles\VincePatrick1 - Web Deploy.pubxml" />
     <EmbeddedResource Include="Resume.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
