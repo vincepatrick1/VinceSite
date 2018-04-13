@@ -85,6 +85,20 @@ textarea {
             transition: all 0.4s ease 0s;
         }
 }
+.border-container{
+    background: rgb(46, 45, 44); 
+    border-radius:5px; 
+    box-shadow: rgb(255, 0, 0) 0 0 3px;
+}
+.skill-list{
+    margin:3px;
+}
+.education-exp{
+    list-style-type:square;
+}
+.goals{
+    list-style-type:none;
+}
 /*.caret {
     display: inline-block;
     width: 0;
