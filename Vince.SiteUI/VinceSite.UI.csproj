@@ -103,9 +103,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="city1.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <Content Include="city1.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="ErrorStyles.css" />
@@ -127,7 +125,6 @@
     <Content Include="Case 4-2.pdf" />
     <Content Include="CaseWebvan.pdf" />
     <Content Include="CaseAgrico.pdf" />
-    <Content Include="Project 4 Write-Up.pdf" />
     <Content Include="Final Paper.pdf" />
     <Content Include="A8SQL.pdf" />
     <Content Include="A2.pdf" />
@@ -139,9 +136,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <EmbeddedResource Include="me.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <Content Include="me.png" />
     <EmbeddedResource Include="lakers.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
