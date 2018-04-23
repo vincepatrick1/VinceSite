@@ -124,7 +124,6 @@ C:\Users\Vince Prince\Source\Repos\VinceSite\Vince.SiteUI\bin\roslyn\vbc.rsp
 C:\Users\Vince Prince\Source\Repos\VinceSite\Vince.SiteUI\bin\roslyn\VBCSCompiler.exe
 C:\Users\Vince Prince\Source\Repos\VinceSite\Vince.SiteUI\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Vince Prince\Source\Repos\VinceSite\Vince.SiteUI\bin\lakers.png
-C:\Users\Vince Prince\Source\Repos\VinceSite\Vince.SiteUI\bin\Resume.pdf
 C:\Users\Vince Prince\Source\Repos\VinceSite\Vince.SiteUI\bin\Vince.SiteUI.dll.config
 C:\Users\Vince Prince\Source\Repos\VinceSite\Vince.SiteUI\bin\Vince.SiteUI.dll
 C:\Users\Vince Prince\Source\Repos\VinceSite\Vince.SiteUI\bin\Vince.SiteUI.pdb

@@ -131,10 +131,13 @@
     <Content Include="A5.pdf" />
     <Content Include="A6doc.pdf" />
     <Content Include="A10doc.pdf" />
+    <Content Include="Project 4 Write-Up.pdf" />
+    <Content Include="Project2.pdf" />
+    <Content Include="DBPenTesting_PatrickR.pdf" />
+    <Content Include="Lab_Encrypt_PatrickR.pdf" />
+    <Content Include="Homework_PatrickR.pdf" />
     <None Include="Properties\PublishProfiles\VincePatrick1 - Web Deploy.pubxml" />
-    <EmbeddedResource Include="Resume.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <Content Include="RVPatrickResume1.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="me.png" />
     <EmbeddedResource Include="lakers.png">
@@ -161,10 +164,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\CISPortfolioController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NavController.cs" />
-    <Compile Include="Controllers\PortfolioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,8 +187,9 @@
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\ErrorPage.cshtml" />
     <Content Include="Views\Nav\Menu.cshtml" />
-    <Content Include="Views\Portfolio\Index.cshtml" />
     <Content Include="TechnicalSkillsVP.pdf" />
+    <Content Include="Views\CISPortfolio\Index.cshtml" />
+    <Content Include="StrategicAssessment.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -195,6 +199,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\MyPortfolio\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

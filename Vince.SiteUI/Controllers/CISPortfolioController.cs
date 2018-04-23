@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace Vince.SiteUI.Controllers
 {
-    public class PortfolioController : Controller
+    public class CISPortfolioController : Controller
     {
-        // GET: Portfolio
+        // GET: CISPortfolio
         public ActionResult Index()
         {
             return View();
