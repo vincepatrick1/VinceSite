@@ -136,6 +136,8 @@
     <Content Include="DBPenTesting_PatrickR.pdf" />
     <Content Include="Lab_Encrypt_PatrickR.pdf" />
     <Content Include="Homework_PatrickR.pdf" />
+    <Content Include="Add, Update, Delete Content.pdf" />
+    <Content Include="Lab 2-WireShark I.pdf" />
     <None Include="Properties\PublishProfiles\VincePatrick1 - Web Deploy.pubxml" />
     <Content Include="RVPatrickResume1.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -190,6 +192,8 @@
     <Content Include="TechnicalSkillsVP.pdf" />
     <Content Include="Views\CISPortfolio\Index.cshtml" />
     <Content Include="StrategicAssessment.pdf" />
+    <Content Include="UpdatedClassDiagram.pdf" />
+    <Content Include="Use Case Diagram.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
