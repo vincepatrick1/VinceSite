@@ -99,6 +99,16 @@ textarea {
 .goals{
     list-style-type:none;
 }
+.icon-list li{
+    display: inline;
+    float: left;
+}
+.tile a {
+    display: block;
+    padding: 10px;
+
+    margin-right: 5px;
+}
 /*.caret {
     display: inline-block;
     width: 0;
