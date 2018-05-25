@@ -109,6 +109,12 @@ textarea {
 
     margin-right: 5px;
 }
+.navbar.navbar-default .navbar-left > li {
+    display: inline-block;
+  }
+.header{
+    font-size:19px;
+}
 /*.caret {
     display: inline-block;
     width: 0;
